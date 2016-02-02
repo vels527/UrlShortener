@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>System.Data.HashFunction.MurmurHash</id>
+    <version>1.8.2.2</version>
+    <title>Data.HashFunction.MurmurHash</title>
+    <authors>Data.HashFunction Developers</authors>
+    <owners>Data.HashFunction Developers</owners>
+    <licenseUrl>https://raw.githubusercontent.com/brandondahler/Data.HashFunction/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/brandondahler/Data.HashFunction/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Data.HashFunction implementation of MurMurHash (https://code.google.com/p/smhasher/wiki/MurmurHash).</description>
+    <releaseNotes>https://github.com/brandondahler/Data.HashFunction/wiki/Release-Notes</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>MurMur hash function</tags>
+    <dependencies>
+      <dependency id="System.Data.HashFunction.Core" version="1.8.2.2" />
+      <dependency id="System.Data.HashFunction.Interfaces" version="1.0.0.2" />
+    </dependencies>
+  </metadata>
+</package>

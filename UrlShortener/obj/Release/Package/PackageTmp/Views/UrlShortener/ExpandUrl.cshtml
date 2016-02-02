@@ -1,0 +1,40 @@
+﻿@model UrlShortener.Models.ExpandUrlModel
+@{
+    ViewBag.Title = "ExpandUrl";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Enter Shortened Url to Expand</h2>
+</hgroup>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Url Shortener Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.ShortUrl)
+                @Html.TextBoxFor(m => m.ShortUrl,  new { style = "width: 750px;" })
+            </li>
+
+        </ol>
+        <input type="submit" value="Expand" />
+    </fieldset>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.StatusMessage))
+{
+    //@Html.Partial("_ChangePasswordPartial")
+    <p>
+        <span class="label">Full Url:</span>
+        <span>@ViewBag.StatusMessage</span>
+    </p>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

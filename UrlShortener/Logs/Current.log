@@ -1,0 +1,7 @@
+INFO UrlShortener.Controllers.AccountController 2016-02-01 17:02:08,621 - ShortUrl method is called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:10:05,916 - ShortUrl method is called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:10:22,919 - ExpandUrl method called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:10:33,301 - ShortUrl method is called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:11:20,441 - ShortUrl method is called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:14:38,481 - ShortUrl method is called
+INFO UrlShortener.Controllers.AccountController 2016-02-01 18:18:18,374 - ShortUrl method is called

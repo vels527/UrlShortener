@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener", "UrlShortener\UrlShortener.csproj", "{1FA89224-D335-4AEA-BD60-E12B5B6EB8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlServices", "UrlShortenerService\UrlServices.csproj", "{C753F92D-550A-4C5C-B0E4-CBED4DA37638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{ABE771D3-B005-4F29-AF01-6F1950FFAD84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FA89224-D335-4AEA-BD60-E12B5B6EB8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA89224-D335-4AEA-BD60-E12B5B6EB8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA89224-D335-4AEA-BD60-E12B5B6EB8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA89224-D335-4AEA-BD60-E12B5B6EB8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C753F92D-550A-4C5C-B0E4-CBED4DA37638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C753F92D-550A-4C5C-B0E4-CBED4DA37638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C753F92D-550A-4C5C-B0E4-CBED4DA37638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C753F92D-550A-4C5C-B0E4-CBED4DA37638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE771D3-B005-4F29-AF01-6F1950FFAD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE771D3-B005-4F29-AF01-6F1950FFAD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE771D3-B005-4F29-AF01-6F1950FFAD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE771D3-B005-4F29-AF01-6F1950FFAD84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
